@@ -8,7 +8,7 @@
 Console.Write("Введите число: ");
 int value = int.Parse(Console.ReadLine()!);
 
-if(value % 2 == 1)
+if(value % 2 != 0)
 {
     Console.WriteLine($"Число {value} является нечётным (делится на два с остатком).");
 }
